@@ -7,7 +7,7 @@ from clients.api_client import APIClient
 
 class GetExercisesQueryDict(TypedDict):
     """
-    Описание структуры запроса на получение списка заданий .
+    Описание структуры запроса на получение списка заданий.
     """
 
     courseId: str
