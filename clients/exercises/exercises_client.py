@@ -13,7 +13,7 @@ class GetExercisesQueryDict(TypedDict):
     courseId: str
 
 
-class CreateExercisesQueryDict(TypedDict):
+class CreateExerciseRequestDict(TypedDict):
     """
     Описание структуры запроса на создание задания.
     """
@@ -27,7 +27,7 @@ class CreateExercisesQueryDict(TypedDict):
     estimatedTime: str | None
 
 
-class UpdateExercisesQueryDict(TypedDict):
+class UpdateExerciseRequestDict(TypedDict):
     """
     Описание структуры запроса на обновление задания.
     """
