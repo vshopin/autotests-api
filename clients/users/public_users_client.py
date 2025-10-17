@@ -7,7 +7,7 @@ from clients.users.users_schema import CreateUserResponseSchema, CreateUserReque
 
 class PublicUsersClient(APIClient):
     """
-    Класс для работы с /api/v1/usersю
+    Класс для работы с /api/v1/users
     """
 
     def create_user_api(self, request: CreateUserRequestSchema) -> Response:
