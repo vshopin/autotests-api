@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjQzOjUzLjE3MDkwNCIsInVzZXJfaWQiOiJkZGZmNzFkNy0yOTRiLTQ3MDMtYTVhOS0yNTEyMGFmZTNmZDEifQ.nsB9D_7iDyU_jGOvIfzioL79i-7XwNYdHWlJw_gQCIU' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Up result today he employee building difficult.","maxScore":98,"minScore":22,"description":"Learn throughout agreement material begin rest box.\nDaughter standard carry trade four no system. Those risk miss thousand such method family watch.","estimatedTime":"1 weeks","previewFileId":"0e89e107-17d2-4ce0-9a4e-834c84c8c499","createdByUserId":"ddff71d7-294b-4703-a5a9-25120afe3fd1"}'

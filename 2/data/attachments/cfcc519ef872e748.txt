@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjQzOjUxLjg5OTMwOSIsInVzZXJfaWQiOiI0YTFlNWM0ZC1kNDBkLTRmODItYjk5ZS1jOTBjNDkwZDU0MjAifQ._3pizzW5-hivSsl_rwUfYsma7UE7uJFHa4JWbw75LAM' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Company next environment time.","maxScore":65,"minScore":10,"description":"From class they home religious. Agreement light religious job area. Mother body above throw fill.","estimatedTime":"5 weeks","previewFileId":"a366401c-1b8a-46fe-b913-7ee26e7a145e","createdByUserId":"4a1e5c4d-d40d-4f82-b99e-c90c490d5420"}'

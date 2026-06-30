@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:94 Check create course response
+INFO     BASE_ASSERTIONS:base.py:30 Check that "title" equals to Memory professional picture stay.
+INFO     BASE_ASSERTIONS:base.py:30 Check that "max_score" equals to 85
+INFO     BASE_ASSERTIONS:base.py:30 Check that "min_score" equals to 24
+INFO     BASE_ASSERTIONS:base.py:30 Check that "description" equals to Win others available major against no. Affect short manager before. Rise line air read.
+Article high plan score top listen air. Boy million identify participant morning moment film opportunity.
+INFO     BASE_ASSERTIONS:base.py:30 Check that "preview_file_id" equals to c784fd4d-1af9-4688-892b-b8f4f0b22b0d
+INFO     BASE_ASSERTIONS:base.py:30 Check that "created_by_user_id" equals to b26ae200-146f-4fd9-a7d8-0cf81fbf642a
+INFO     BASE_ASSERTIONS:base.py:30 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

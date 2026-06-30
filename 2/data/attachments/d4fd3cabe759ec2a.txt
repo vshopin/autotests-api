@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/7d0d5694-0c83-48b0-8030-a9ac39096142' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjQzOjQ4Ljc3NzU1MCIsInVzZXJfaWQiOiIwY2FjNTM2Zi1mNGJkLTQ5OWQtYjM2Zi04MWM0NDEwZTZkYTUifQ.6i0kn-SXZ04NVpVPv0gKd_BMcGyN6i0FlIdd8MwPMCA' \
+  -H 'content-length: 277' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Act thousand throw off.","maxScore":97,"minScore":21,"description":"Leg between rest end create last left. Alone type father machine.\nSense action modern budget marriage these interview. Discover raise might alone live. Teach phone house.","estimatedTime":"8 weeks"}'

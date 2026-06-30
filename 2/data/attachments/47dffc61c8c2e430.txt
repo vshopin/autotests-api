@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjQzOjUwLjY0MDAwMiIsInVzZXJfaWQiOiJkMWZkYWMyMS1hM2I4LTRmOTctYjBkNS1jZWFhMjQyNTEwM2QifQ.MfWI55b3oOjBKZSyeAZL2F8WNiPioq5qHBHLPm9cAHw' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Always risk able claim age.","maxScore":92,"minScore":28,"description":"Indeed run again few. Check billion kind kind field middle show that. I soon lot almost. Partner nation wish be hold if speech.","estimatedTime":"4 weeks","previewFileId":"adbb582a-7254-4c15-9e92-a14159fb7885","createdByUserId":"d1fdac21-a3b8-4f97-b0d5-ceaa2425103d"}'

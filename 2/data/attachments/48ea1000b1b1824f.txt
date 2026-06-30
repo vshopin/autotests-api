@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjQzOjUwLjM2NjUwMSIsInVzZXJfaWQiOiJiMjZhZTIwMC0xNDZmLTRmZDktYTdkOC0wY2Y4MWZiZjY0MmEifQ.prGnTkqT3QOcu_rtWH08mMWbk_PNPUv1Fjr_DEea2ls' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Memory professional picture stay.","maxScore":85,"minScore":24,"description":"Win others available major against no. Affect short manager before. Rise line air read.\nArticle high plan score top listen air. Boy million identify participant morning moment film opportunity.","estimatedTime":"5 weeks","previewFileId":"c784fd4d-1af9-4688-892b-b8f4f0b22b0d","createdByUserId":"b26ae200-146f-4fd9-a7d8-0cf81fbf642a"}'

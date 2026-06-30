@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjQzOjQ5LjM4MzIyOCIsInVzZXJfaWQiOiI4ZDAyMzVlZC0yZjdkLTRjOTQtOGUzYy05NDFiNDNkOGRhNGQifQ.NGJlwYQfw2Jc9U0DCQunWrNw3BhB3CCtTIAwxYRMu_k' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Each when fear occur laugh return.","maxScore":91,"minScore":7,"description":"Peace record say whose set Democrat cold party. Mr who production morning start. Begin environment field door type want gun.","estimatedTime":"6 weeks","previewFileId":"23d0b77e-c5e0-4cca-8bda-21659f430b5f","createdByUserId":"8d0235ed-2f7d-4c94-8e3c-941b43d8da4d"}'

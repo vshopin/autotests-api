@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjQzOjUyLjg5Njg5NSIsInVzZXJfaWQiOiI0YmZjNGM3NS0zMjExLTQ4YTYtYmU0MC05YTdiOTI2M2JiOTIifQ.HGAFkAt756TKJl0U97zcgfxCQICk_N3rgjtCyoKzEYw' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Order color human civil peace.","maxScore":74,"minScore":10,"description":"Discuss response bit military certain expect food. Blue hold evidence recent. Reality site drug call.\nMinute author turn process. Box guess help. Yard determine laugh.","estimatedTime":"7 weeks","previewFileId":"e03cb78d-5ceb-4c0e-82b5-9a7641eae3c9","createdByUserId":"4bfc4c75-3211-48a6-be40-9a7b9263bb92"}'

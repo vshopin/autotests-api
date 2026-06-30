@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:29 Make GET request to http://localhost:8000/api/v1/exercises/758d2d86-0258-4098-8898-62b528a8a3c2
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises/758d2d86-0258-4098-8898-62b528a8a3c2
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:75 Check geet exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:51 Check exercise
+INFO     BASE_ASSERTIONS:base.py:30 Check that "id" equals to 758d2d86-0258-4098-8898-62b528a8a3c2
+INFO     BASE_ASSERTIONS:base.py:30 Check that "title" equals to Treat need full stuff.
+INFO     BASE_ASSERTIONS:base.py:30 Check that "course_id" equals to 399b2e19-18ec-4d95-b093-c735ae29317f
+INFO     BASE_ASSERTIONS:base.py:30 Check that "max_score" equals to 98
+INFO     BASE_ASSERTIONS:base.py:30 Check that "min_score" equals to 6
+INFO     BASE_ASSERTIONS:base.py:30 Check that "order_index" equals to 2
+INFO     BASE_ASSERTIONS:base.py:30 Check that "description" equals to Which stop heavy our several. Size response police four find people degree. Arrive someone economic.
+Center effect form draw return on. Often author cold affect together.
+INFO     BASE_ASSERTIONS:base.py:30 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

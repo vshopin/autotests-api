@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjQzOjUxLjYyNDI4NSIsInVzZXJfaWQiOiI2YmQ5MWU0NS1mNWUyLTQ1YTktYjg3NS00NmIwNTQwMGU3YmEifQ.iXKAfW9jXvUCCoDOdhyR_VugfmjFSeGLTNtwiGfotXk' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Word build institution bag.","maxScore":60,"minScore":2,"description":"By board economy hold whole together also.\nComputer network cell today once cultural. Politics since determine couple of phone. Soldier write organization blue hospital minute reduce street.","estimatedTime":"3 weeks","previewFileId":"ae44bc9c-b37d-48fe-869b-0e3af1933bd6","createdByUserId":"6bd91e45-f5e2-45a9-b875-46b05400e7ba"}'
