@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:29 Make GET request to http://localhost:8000/api/v1/exercises?courseId=2bc8debc-977b-40e3-b5b7-727420206611
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=2bc8debc-977b-40e3-b5b7-727420206611
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:128 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:60 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:51 Check exercise
+INFO     BASE_ASSERTIONS:base.py:30 Check that "id" equals to 4b0345a0-9641-4de7-ad41-4ace97f26842
+INFO     BASE_ASSERTIONS:base.py:30 Check that "title" equals to Employee economic hotel pattern score group both hour.
+INFO     BASE_ASSERTIONS:base.py:30 Check that "course_id" equals to 2bc8debc-977b-40e3-b5b7-727420206611
+INFO     BASE_ASSERTIONS:base.py:30 Check that "max_score" equals to 58
+INFO     BASE_ASSERTIONS:base.py:30 Check that "min_score" equals to 26
+INFO     BASE_ASSERTIONS:base.py:30 Check that "order_index" equals to 92
+INFO     BASE_ASSERTIONS:base.py:30 Check that "description" equals to Most the your site commercial. Worry concern whether decision. Few such indicate develop conference wrong save.
+INFO     BASE_ASSERTIONS:base.py:30 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

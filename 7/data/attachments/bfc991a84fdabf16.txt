@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE1OjU4OjU0LjU5NjAwOSIsInVzZXJfaWQiOiJjODcxNDdkZS00OTQyLTQxMjUtYWVlZC1iM2ZmOTlmMjg0NDUifQ.rh-AnDUKUeX1lvx1oHLoumXb8mKWVfJ_DNdqulVAss4' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Indeed thank structure everything piece exactly response.","courseId":"88dced7b-5691-4277-bb77-00ee9f5e4b53","maxScore":65,"minScore":9,"orderIndex":89,"description":"Beautiful friend agency. Big fine all book.\nFactor popular purpose expect. Employee type offer plan public throughout wrong.","estimatedTime":"4 weeks"}'

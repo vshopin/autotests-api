@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/8b90be97-4551-4e7f-b58a-80f144cf02c0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE1OjU4OjU1LjU3NDI2MiIsInVzZXJfaWQiOiI2NDg0MjY3Ni02ZWY0LTRmYjktOGJjZC1iZDMzNTBiYWMxN2UifQ.JG_-lCOA3cjwVSegpdgEZ3ftpVnQ6b12_AQzRXHwWgM' \
+  -H 'content-length: 285' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whether writer property truth money memory make.","maxScore":89,"minScore":7,"orderIndex":15,"description":"Sing consumer health issue same race new outside. Hotel why crime physical attention director. Live good tell itself treat economy science.","estimatedTime":"2 weeks"}'

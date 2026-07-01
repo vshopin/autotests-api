@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make PATCH request to http://localhost:8000/api/v1/courses/5eae1156-6825-40ac-b706-7e9479d96c0c
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses/5eae1156-6825-40ac-b706-7e9479d96c0c
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:31 Check update course response
+INFO     BASE_ASSERTIONS:base.py:30 Check that "title" equals to Seek bank food several know.
+INFO     BASE_ASSERTIONS:base.py:30 Check that "max_score" equals to 70
+INFO     BASE_ASSERTIONS:base.py:30 Check that "min_score" equals to 18
+INFO     BASE_ASSERTIONS:base.py:30 Check that "description" equals to Conference better age could including. Miss wish think impact every degree behavior. Relationship identify realize ten.
+INFO     BASE_ASSERTIONS:base.py:30 Check that "estimated_time" equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

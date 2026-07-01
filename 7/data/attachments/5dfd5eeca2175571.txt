@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE1OjU4OjU1LjU3NDI2MiIsInVzZXJfaWQiOiI2NDg0MjY3Ni02ZWY0LTRmYjktOGJjZC1iZDMzNTBiYWMxN2UifQ.JG_-lCOA3cjwVSegpdgEZ3ftpVnQ6b12_AQzRXHwWgM' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Small court reveal Mr suffer water.","maxScore":93,"minScore":3,"description":"Director control create role happen sense kitchen. Even apply support situation wear. Information floor safe gas house quality administration.","estimatedTime":"7 weeks","previewFileId":"411216d3-b2fd-4f72-94f0-3e5dae1137ca","createdByUserId":"64842676-6ef4-4fb9-8bcd-bd3350bac17e"}'

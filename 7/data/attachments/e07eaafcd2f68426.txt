@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE1OjU4OjU3LjEyMzEwOSIsInVzZXJfaWQiOiIxNGFlZWIzNi05NTMwLTRhMjctOWM4OC01MGFkNWEzZDU1YzIifQ.PYcdGw_rWL_26CNB__r5TwA1gnRE5ykN1ghIU7a4_iw' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Spring speak unit none side Congress series stay.","maxScore":77,"minScore":27,"description":"I find face sort concern suggest leg. Professional safe myself usually return model collection pattern.\nTop relationship set. Summer important enjoy feel stuff left.","estimatedTime":"2 weeks","previewFileId":"0078cd54-cf37-4929-aca5-d70df5bf7775","createdByUserId":"14aeeb36-9530-4a27-9c88-50ad5a3d55c2"}'
