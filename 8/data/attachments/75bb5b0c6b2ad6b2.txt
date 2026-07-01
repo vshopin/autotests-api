@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjAxOjU5LjA3ODQwOCIsInVzZXJfaWQiOiIwZGRiZWEzNC1iNDk1LTRhOTgtODQ5Yi1iN2I4NTM3MmUzZGIifQ.T98zYC6FVg77BCY2oPm1eePjBKrLeO4vCONQ059qix0' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dream year go difficult high address phone.","maxScore":56,"minScore":10,"description":"Student interview same film investment hundred. Section age laugh matter.","estimatedTime":"5 weeks","previewFileId":"06823d8c-ac7f-4cf9-aa98-387e9e9ec7c2","createdByUserId":"0ddbea34-b495-4a98-849b-b7b85372e3db"}'

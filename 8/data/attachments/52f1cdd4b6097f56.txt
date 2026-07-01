@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjAyOjAwLjY0NTUzNiIsInVzZXJfaWQiOiJjYTIzMTYxMi1lNmIxLTQ2ZTgtYWQxNy0wN2JiNjRmZDc4MjEifQ.dkj9UF6FHVEB7tzXCNXVs7hglWGwCxRtneOqLSQ09u4' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Practice government either cell.","maxScore":77,"minScore":30,"description":"Paper mission responsibility side action. Start choice article nature.\nIdea friend already. Industry music machine next. Own area during sense way impact.","estimatedTime":"6 weeks","previewFileId":"fc5caffa-7ac7-40da-bcbc-ea7d87017f82","createdByUserId":"ca231612-e6b1-46e8-ad17-07bb64fd7821"}'

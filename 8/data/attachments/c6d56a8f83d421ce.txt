@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjAxOjU3LjIzMjg2NiIsInVzZXJfaWQiOiI2NDQwZmY4Zi1hOWEwLTQ1NGQtYWEyNy02MTNkODUwNmU2NjYifQ.Rkwwd3_PQrkj2DI3u3g-HOC0slpVJ78Qts96gainLMQ' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ball suffer top main attention want store son.","maxScore":84,"minScore":12,"description":"Picture choice war condition next total red attorney. Gun per four charge.\nWork finish another bank movement will put. Know note support catch write.","estimatedTime":"4 weeks","previewFileId":"8f3b899b-c64c-4353-aedd-818fcf3580ad","createdByUserId":"6440ff8f-a9a0-454d-aa27-613d8506e666"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjAyOjAxLjkyMzUwNCIsInVzZXJfaWQiOiI1OTA4MjYzMS02ZThiLTRkNmEtYjQyMS02NWIxZWQxOTdmYmUifQ.u18Vu1u4mz05pmi54ZH_PM0_h-Y5YSWfwqO7Q7XyeI0' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Change many everyone have ever first.","maxScore":53,"minScore":9,"description":"Deal figure tell. Approach nature serious away. Down ground pull.\nActually prepare upon a over half. Certain represent voice. Card I quality end.","estimatedTime":"9 weeks","previewFileId":"fac538f5-6a97-4b0c-b117-1109cbbf71ef","createdByUserId":"59082631-6e8b-4d6a-b421-65b1ed197fbe"}'

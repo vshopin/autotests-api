@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjAyOjAwLjY0NTUzNiIsInVzZXJfaWQiOiJjYTIzMTYxMi1lNmIxLTQ2ZTgtYWQxNy0wN2JiNjRmZDc4MjEifQ.dkj9UF6FHVEB7tzXCNXVs7hglWGwCxRtneOqLSQ09u4' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Then property wife scene thank break green.","courseId":"6256a8c3-ac94-4e6b-b7d9-d5165fd12a94","maxScore":94,"minScore":21,"orderIndex":92,"description":"Start event laugh part. Indeed push career how.\nBorn thought force right anyone officer official. Any often agree.\nCareer enough follow value bed price situation.","estimatedTime":"9 weeks"}'

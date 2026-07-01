@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjAxOjU5LjM5MDg1NSIsInVzZXJfaWQiOiJlMDczMjRmOC1kMmM5LTQ1YTMtOGUxYi1jNmViYjM0OGFmN2YifQ.ceQIpMijAeAgTEsD5PQ3VNDDw1WP2_H3zmo79hbZcJA' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Result nation back happy effect.","maxScore":58,"minScore":14,"description":"Outside girl yourself throughout throw analysis plant.\nWhy owner left its. Employee doctor expect garden side. Lose brother agent behind value figure probably.","estimatedTime":"1 weeks","previewFileId":"150b509f-4bc8-464c-bb53-afdb618216f6","createdByUserId":"e07324f8-d2c9-45a3-8e1b-c6ebb348af7f"}'

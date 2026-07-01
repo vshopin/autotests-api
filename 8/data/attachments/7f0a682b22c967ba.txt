@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make PATCH request to http://localhost:8000/api/v1/courses/fa6c1112-51ab-4129-85e0-a5be36bb9bf0
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses/fa6c1112-51ab-4129-85e0-a5be36bb9bf0
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:31 Check update course response
+INFO     BASE_ASSERTIONS:base.py:30 Check that "title" equals to Strong remember focus police.
+INFO     BASE_ASSERTIONS:base.py:30 Check that "max_score" equals to 95
+INFO     BASE_ASSERTIONS:base.py:30 Check that "min_score" equals to 28
+INFO     BASE_ASSERTIONS:base.py:30 Check that "description" equals to Which current spring relate they arm. Fill drop range place school.
+Media particular hair occur window. Investment few exactly wall apply. Whose friend here stay range appear.
+INFO     BASE_ASSERTIONS:base.py:30 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

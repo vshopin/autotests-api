@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/fa6c1112-51ab-4129-85e0-a5be36bb9bf0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjAxOjU3LjIzMjg2NiIsInVzZXJfaWQiOiI2NDQwZmY4Zi1hOWEwLTQ1NGQtYWEyNy02MTNkODUwNmU2NjYifQ.Rkwwd3_PQrkj2DI3u3g-HOC0slpVJ78Qts96gainLMQ' \
+  -H 'content-length: 288' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Strong remember focus police.","maxScore":95,"minScore":28,"description":"Which current spring relate they arm. Fill drop range place school.\nMedia particular hair occur window. Investment few exactly wall apply. Whose friend here stay range appear.","estimatedTime":"5 weeks"}'

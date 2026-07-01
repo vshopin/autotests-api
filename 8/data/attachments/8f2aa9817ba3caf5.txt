@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjAyOjAxLjY0OTY2NSIsInVzZXJfaWQiOiJhZWU5NDhmMC1lNGIzLTQ5ZDgtODM4OC0yMjA5ODg3NzU3ZTEifQ.mFPOsWBn-Cp5ZA8lTSQHlzl-26zT6WgGGyfJvOTzYMs' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Some practice environmental certain conference statement.","maxScore":79,"minScore":5,"description":"This place happen. Support election Republican sometimes. Rise most source strong away truth.\nMind western alone. Worry old firm prove structure amount attorney.","estimatedTime":"7 weeks","previewFileId":"2c84a217-f137-42e7-ae27-a8e3945e6f7d","createdByUserId":"aee948f0-e4b3-49d8-8388-2209887757e1"}'
