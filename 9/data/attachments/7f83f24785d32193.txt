@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjAzOjU4LjExNzYzOSIsInVzZXJfaWQiOiJjMzFjMzdkZi1lN2Y5LTQ2ZDAtYWNjNS1kNjUwOWRhY2ZlNDYifQ.PvFC_RLvw1J3f3g5YLeFGAt7jWfAQd9t5TGVeRZjuK4' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Become generation painting always shake.","maxScore":82,"minScore":8,"description":"Go south space story. Year water receive fight activity. Meeting discuss add force art either thousand.","estimatedTime":"9 weeks","previewFileId":"cc7b94c3-f68a-4595-9248-42054f30eb69","createdByUserId":"c31c37df-e7f9-46d0-acc5-d6509dacfe46"}'

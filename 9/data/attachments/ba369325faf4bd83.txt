@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjAzOjU4LjExNzYzOSIsInVzZXJfaWQiOiJjMzFjMzdkZi1lN2Y5LTQ2ZDAtYWNjNS1kNjUwOWRhY2ZlNDYifQ.PvFC_RLvw1J3f3g5YLeFGAt7jWfAQd9t5TGVeRZjuK4' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Buy recognize way at level war detail.","courseId":"72e0ebab-6fae-4c16-82b0-03234c24ed0a","maxScore":60,"minScore":4,"orderIndex":34,"description":"Full approach event bag. Herself machine they whether bill parent none.\nAccount natural finally name.\nSecond room certain those like become onto. Ago act along heavy remain field all.","estimatedTime":"8 weeks"}'

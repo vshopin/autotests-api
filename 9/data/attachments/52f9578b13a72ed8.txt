@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9672bcd8-12dc-4af4-b014-f7663162c979' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjAzOjU1LjY3NzE4MiIsInVzZXJfaWQiOiI5OTg0MzJhMS1iM2FjLTRhOTItODBhMS0yMDk4MmUwMDU4N2MifQ.jwhKIR--SoMxUyTEDUGBsmwpi85bH9BNcFSIBYAMPxs' \
+  -H 'content-length: 264' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Already least especially beautiful.","maxScore":80,"minScore":19,"description":"Into onto office window job. Create key behavior political difficult remember machine.\nYard less allow sound win. Region wear media matter cover.","estimatedTime":"8 weeks"}'

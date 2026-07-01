@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjAzOjU4LjM5MjY2MiIsInVzZXJfaWQiOiI4YTgwOGRjZS1jNDJiLTRlZGYtYTc4MC04N2ZiYjM1ZTlkYmIifQ.1_6RerQvNMhiD-jzAB5hfanM8IXworiA1DTiVySOwyM' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Treat tax music former responsibility win work coach.","courseId":"06592ec2-3aed-489c-b9e4-aff59689e4ff","maxScore":99,"minScore":6,"orderIndex":43,"description":"Amount which animal seven from. Benefit skill series again memory my test worry. Place manager whether individual. Lay wrong article program color.\nHear want image animal. Start bill page tell.","estimatedTime":"5 weeks"}'

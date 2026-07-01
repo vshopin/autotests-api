@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/2569cde1-8a45-4369-ac58-8803cd1920b8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjAzOjU4LjM5MjY2MiIsInVzZXJfaWQiOiI4YTgwOGRjZS1jNDJiLTRlZGYtYTc4MC04N2ZiYjM1ZTlkYmIifQ.1_6RerQvNMhiD-jzAB5hfanM8IXworiA1DTiVySOwyM' \
+  -H 'content-length: 273' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Table forward name size.","maxScore":71,"minScore":8,"orderIndex":65,"description":"Will agent page. About then window must. Compare blood law decade court.\nMaybe expect foreign born. Song range five bag standard suffer challenge tax.","estimatedTime":"9 weeks"}'

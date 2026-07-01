@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:29 Make GET request to http://localhost:8000/api/v1/exercises?courseId=ad58de8c-d012-47f2-b37a-e1483a51f680
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=ad58de8c-d012-47f2-b37a-e1483a51f680
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:128 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:60 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:51 Check exercise
+INFO     BASE_ASSERTIONS:base.py:30 Check that "id" equals to 0744f93c-edfc-44c1-8486-7c30a7412244
+INFO     BASE_ASSERTIONS:base.py:30 Check that "title" equals to What husband answer drug always little opportunity.
+INFO     BASE_ASSERTIONS:base.py:30 Check that "course_id" equals to ad58de8c-d012-47f2-b37a-e1483a51f680
+INFO     BASE_ASSERTIONS:base.py:30 Check that "max_score" equals to 62
+INFO     BASE_ASSERTIONS:base.py:30 Check that "min_score" equals to 22
+INFO     BASE_ASSERTIONS:base.py:30 Check that "order_index" equals to 38
+INFO     BASE_ASSERTIONS:base.py:30 Check that "description" equals to Bar which add entire may environment add. Drug difference though public turn surface director.
+Surface general drug radio author director. Add simple between alone wait threat lay whom.
+INFO     BASE_ASSERTIONS:base.py:30 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

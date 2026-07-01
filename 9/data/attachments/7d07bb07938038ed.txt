@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjAzOjU1LjY3NzE4MiIsInVzZXJfaWQiOiI5OTg0MzJhMS1iM2FjLTRhOTItODBhMS0yMDk4MmUwMDU4N2MifQ.jwhKIR--SoMxUyTEDUGBsmwpi85bH9BNcFSIBYAMPxs' \
+  -H 'content-length: 285' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eye door vote feeling.","maxScore":73,"minScore":13,"description":"Difference check less trade position green treat. Paper nor at live.","estimatedTime":"2 weeks","previewFileId":"528589df-60c2-4c4b-aaae-042b9f108379","createdByUserId":"998432a1-b3ac-4a92-80a1-20982e00587c"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjAzOjU5LjY2MTI4NyIsInVzZXJfaWQiOiIwM2Y3OGJmMy01ZTU0LTQ2ZTEtYmE5Zi0yMWJmMGViN2VlZDcifQ.XRYycmAFqxPOwYo27TbgcDEidCu13o4I1wjKFJevYR8' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Often mind line PM.","maxScore":66,"minScore":3,"description":"Street read trade left play. Responsibility kind major them. Bit really federal message blood.\nModern blue various number long question national medical.","estimatedTime":"4 weeks","previewFileId":"fbdb3cfd-10b8-4734-adcd-4ca8a09e61ff","createdByUserId":"03f78bf3-5e54-46e1-ba9f-21bf0eb7eed7"}'

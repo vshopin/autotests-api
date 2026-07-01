@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjAzOjU3LjE3MjA0MiIsInVzZXJfaWQiOiI4ZThhNjljNy1iNDFlLTQ4ZGYtOTIyNS05NTM0N2IwODU0NmEifQ.UMGGDnl9UYczHW-2BnxBPsIr7rFcfDM6fpQprI9J0dk' \
+  -H 'content-length: 442' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Represent wish information discuss run draw kitchen.","maxScore":87,"minScore":10,"description":"Beyond visit investment own realize develop three. Far should research free upon decision. Of certain important.\nProtect little season write. Investment more page state. Understand worry nearly.","estimatedTime":"3 weeks","previewFileId":"cbbb51a1-a344-4cd8-baaa-fe89f00d0473","createdByUserId":"8e8a69c7-b41e-48df-9225-95347b08546a"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjAzOjU4LjM5MjY2MiIsInVzZXJfaWQiOiI4YTgwOGRjZS1jNDJiLTRlZGYtYTc4MC04N2ZiYjM1ZTlkYmIifQ.1_6RerQvNMhiD-jzAB5hfanM8IXworiA1DTiVySOwyM' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Onto stuff work stay.","maxScore":59,"minScore":19,"description":"Hour work building instead. Matter writer line city. Responsibility grow top they rock front.\nBetween which billion. Than help give best old. Reveal consumer become world hour.","estimatedTime":"4 weeks","previewFileId":"6fb9b733-6767-444c-8376-59b736d9a2cc","createdByUserId":"8a808dce-c42b-4edf-a780-87fbb35e9dbb"}'

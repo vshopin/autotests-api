@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjAzOjU5LjM4NzU5NCIsInVzZXJfaWQiOiI0OGYwY2IzNS0yMGJlLTQ1YTEtODgxOS04NjdhZGM0ZDBhY2IifQ.KkdmweHIvBAPRjVjcSf41hU__dTLULDWNPgdvX_RGYs' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Professor quality sit statement happen history.","maxScore":64,"minScore":4,"description":"Million yourself prove accept maybe analysis. Couple positive south capital. Lay stop challenge development total.\nLot near left. Clear item win thus its network any.","estimatedTime":"3 weeks","previewFileId":"ed2efa43-6671-490a-bf04-5bfe9ce180cd","createdByUserId":"48f0cb35-20be-45a1-8819-867adc4d0acb"}'
