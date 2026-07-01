@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjA4OjQzLjQ4OTEyMyIsInVzZXJfaWQiOiJlYjBhY2ZhNy1jMDRjLTQ2ODYtYTk1Yy1kMWMyNTlhMWQyYmUifQ.6zrK3UQ1fO-3QvgaTKtTMnvzuJVmJ-BskAueKGnxy5A' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mind increase choice strong speak then.","maxScore":72,"minScore":29,"description":"Human consider network control rate give person. Might suffer that environmental ten tonight cell.","estimatedTime":"7 weeks","previewFileId":"b69ed6fb-6ce5-46ae-9991-d2ecf42f4e34","createdByUserId":"eb0acfa7-c04c-4686-a95c-d1c259a1d2be"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjA4OjQ3LjI0MzM1NSIsInVzZXJfaWQiOiI0NDMzYzZmNi1mY2ZlLTQ1NDUtOTA1YS1iMTg0MzE5Mzg4MzEifQ.VDFBhfNqpq5LyyRef-8cv-OJiF--G9qwiU-uFaF5zok' \
+  -H 'content-length: 292' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Career put second new.","maxScore":83,"minScore":9,"description":"Sort camera rich would. No land nice accept. Prepare establish sell detail.","estimatedTime":"10 weeks","previewFileId":"16b32e60-4975-4fe1-aff1-4490f3dbb3ae","createdByUserId":"4433c6f6-fcfe-4545-905a-b18431938831"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjA4OjQ2Ljk3MDQ5NSIsInVzZXJfaWQiOiJmYjViN2RiYS1lOGI5LTRhOGUtYmYxYy0yMDYxNWYxM2YxYmMifQ.FbH8QaZHER3tPOfax_5QkmJ_JX2rWsEXmLTdq2brA54' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Middle wish decision television.","courseId":"d236a725-d318-43a6-a018-562d6a780c11","maxScore":69,"minScore":21,"orderIndex":62,"description":"Work scientist economic several recognize natural image. Those have series but same chance. Walk born hour production.\nRate send our marriage last nice line. One special final garden opportunity gun.","estimatedTime":"5 weeks"}'

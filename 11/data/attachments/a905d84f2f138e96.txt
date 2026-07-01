@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjA4OjQyLjg5NjA3MyIsInVzZXJfaWQiOiJjMzA1MjE5OC1mZTZmLTRlNTItYTg5MS1kNjg3YWU3NzRlOTUifQ.o-yWLaKXrjQn6wmDJafVHXRTvXVH5hhqmHR-7m9L8x4' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Speak present might paper.","maxScore":96,"minScore":27,"description":"Popular left success board without very fight. Attorney you expect.\nWestern race cold wait. Prove relationship term simply.","estimatedTime":"9 weeks","previewFileId":"1a299c75-7be6-4dcd-bd4b-ecfd09f70387","createdByUserId":"c3052198-fe6f-4e52-a891-d687ae774e95"}'

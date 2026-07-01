@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjA4OjQ1Ljk3NjgzNyIsInVzZXJfaWQiOiIwYjdkMzA1Zi1jODhjLTQ4OGEtOGUzYy05MjNkNjNhM2MyMTAifQ.xg5HqoDGlZBSxL5R2jcwmRDBEFW45dU94unzuM24NjU' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Season cultural left.","maxScore":95,"minScore":19,"description":"Plant everybody party direction. Family whose seem office.\nDoor forward suddenly establish by per. Because board bar service only side. Who call best our official Mr yourself.","estimatedTime":"8 weeks","previewFileId":"23726627-7ba7-4267-96b1-f575843523b0","createdByUserId":"0b7d305f-c88c-488a-8e3c-923d63a3c210"}'

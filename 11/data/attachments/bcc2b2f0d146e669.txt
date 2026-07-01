@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/bb8ad4dd-955a-4ff5-90ba-0b0023965dfa' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjA4OjQyLjg5NjA3MyIsInVzZXJfaWQiOiJjMzA1MjE5OC1mZTZmLTRlNTItYTg5MS1kNjg3YWU3NzRlOTUifQ.o-yWLaKXrjQn6wmDJafVHXRTvXVH5hhqmHR-7m9L8x4' \
+  -H 'content-length: 267' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Security food suffer player wonder central share.","maxScore":70,"minScore":25,"description":"Film whole tonight your. Card road bring race. Glass project foot player son worry professor try.\nGuy career newspaper son trip heavy.","estimatedTime":"9 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjA4OjQ2Ljk3MDQ5NSIsInVzZXJfaWQiOiJmYjViN2RiYS1lOGI5LTRhOGUtYmYxYy0yMDYxNWYxM2YxYmMifQ.FbH8QaZHER3tPOfax_5QkmJ_JX2rWsEXmLTdq2brA54' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Physical help institution information word.","maxScore":57,"minScore":8,"description":"Establish all test section. Song participant direction. Shoulder must war financial mouth science big himself. Yard name general him.","estimatedTime":"3 weeks","previewFileId":"e9f73a1b-f6fb-4f7e-8b7d-4c36e76c4080","createdByUserId":"fb5b7dba-e8b9-4a8e-bf1c-20615f13f1bc"}'

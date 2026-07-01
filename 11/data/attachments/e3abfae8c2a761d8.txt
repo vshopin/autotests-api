@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjA4OjQ1LjcwNDY2MCIsInVzZXJfaWQiOiIyMGI4ZDc0ZS1kODJiLTRhNjgtOTZiMS0zZjY2MjNjYTFiY2MifQ.jjV0Vc00olybzpd2KHnP-bhsIf9x154YiEcfLceobrg' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tell poor onto much.","courseId":"f0db5ef4-ab6a-4c54-ae7f-147a4d4e86ee","maxScore":68,"minScore":5,"orderIndex":43,"description":"Series but paper six.\nPerformance debate growth throughout me nice according. Sea today development lead painting social. Each mother business suggest skill nation.","estimatedTime":"9 weeks"}'

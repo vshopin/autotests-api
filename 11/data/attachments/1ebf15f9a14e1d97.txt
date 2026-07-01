@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjA4OjQ0LjczOTMyNSIsInVzZXJfaWQiOiI5OWEwMTBmZi1hYjk0LTQ4M2ItOTExNS05OTUwODQ2NjJiZGYifQ._q7Z0waBEJPSp5DhBwip3CDTy4PNi0Oj1dXFAtQMZmk' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Start dark leg guess always window.","maxScore":83,"minScore":1,"description":"Food they could piece able. Evidence sister through scientist hour. High such add letter music whole. Dream the season model.","estimatedTime":"4 weeks","previewFileId":"1c2c36f3-e499-4a71-8a51-7c88791aeeaf","createdByUserId":"99a010ff-ab94-483b-9115-995084662bdf"}'

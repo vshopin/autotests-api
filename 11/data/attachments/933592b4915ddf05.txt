@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjA4OjQ1LjcwNDY2MCIsInVzZXJfaWQiOiIyMGI4ZDc0ZS1kODJiLTRhNjgtOTZiMS0zZjY2MjNjYTFiY2MifQ.jjV0Vc00olybzpd2KHnP-bhsIf9x154YiEcfLceobrg' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"House story listen.","maxScore":79,"minScore":18,"description":"Western although federal society. Speech herself building soon factor buy. Out research scientist feeling career however. Third reflect job or dinner exactly him.","estimatedTime":"5 weeks","previewFileId":"a5ccbf69-bcf5-4cf2-9b6f-eb2d8a2aba14","createdByUserId":"20b8d74e-d82b-4a68-96b1-3f6623ca1bcc"}'
