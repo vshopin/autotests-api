@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/414a81d2-4554-4df5-85c1-20ca9d0fb681' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjExOjUyLjg1NTIxNiIsInVzZXJfaWQiOiJiNjQ1ZDUzZi1iZGY0LTQyN2ItOWU3OC01YTliNjg1ZDRjZGMifQ.wn-QmQkgcHUDLrUjaL_58kmxwji7U9L2K93lbHXSq_E' \
+  -H 'content-length: 288' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Decision education follow all pretty three cause.","maxScore":52,"minScore":30,"orderIndex":4,"description":"Of third particular join stay foreign. Should require discover kid.\nSkin crime drop not study full. Describe challenge claim employee thing.","estimatedTime":"1 weeks"}'

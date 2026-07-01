@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjExOjQ5LjM5OTE1MCIsInVzZXJfaWQiOiJiY2M2NzhiMi1kMDhiLTQ4MmItYmEzZS1iZDIxNTRjNDhmNGEifQ.hFPU9Urxk4Et_HXUqDTU7ak4C5cQLj36HDfEOxOiQe0' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Top teach wide organization.","maxScore":79,"minScore":5,"description":"Accept eight above some. Report explain arm rather. Remain rule everybody character stay exactly.\nSimilar star region network thus. Next member else speak something. Fine president half big nice pay.","estimatedTime":"2 weeks","previewFileId":"d6fc8514-3b5b-4316-bf11-a3ad91e016c1","createdByUserId":"bcc678b2-d08b-482b-ba3e-bd2154c48f4a"}'

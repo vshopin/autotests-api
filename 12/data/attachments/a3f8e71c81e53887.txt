@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjExOjUyLjg1NTIxNiIsInVzZXJfaWQiOiJiNjQ1ZDUzZi1iZGY0LTQyN2ItOWU3OC01YTliNjg1ZDRjZGMifQ.wn-QmQkgcHUDLrUjaL_58kmxwji7U9L2K93lbHXSq_E' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Follow ok bank rate likely protect reduce own.","maxScore":64,"minScore":11,"description":"Our pass food unit skill war financial. Should never card. Its continue its right store moment wonder.\nBar oil teach seven for throw edge. Professor it phone area drive.","estimatedTime":"10 weeks","previewFileId":"a04dfa34-8678-4de1-9308-edea1844fc77","createdByUserId":"b645d53f-bdf4-427b-9e78-5a9b685d4cdc"}'

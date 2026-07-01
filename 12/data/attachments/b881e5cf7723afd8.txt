@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjExOjUzLjE2NjIxNiIsInVzZXJfaWQiOiJiOTg0YzQ1MC00ZjlkLTQ0N2MtOTA2NC1jNzVhMmExZmQzZDgifQ.8HHo59-yN7pl7CWY77SwZ3fOvDCpT1BW4ZEFZCSaPZw' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Station store tell economy station.","maxScore":63,"minScore":11,"description":"Alone million possible daughter benefit painting sort. Suggest commercial hear Democrat capital. Between parent man now significant.","estimatedTime":"8 weeks","previewFileId":"c11dd63e-b87b-4528-9100-3d7c0cbd52df","createdByUserId":"b984c450-4f9d-447c-9064-c75a2a1fd3d8"}'

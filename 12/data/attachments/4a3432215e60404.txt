@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjExOjU0LjU2OTY3OSIsInVzZXJfaWQiOiI3MzY2Y2Y4MC0yZTk5LTQ0MDUtYmJiMy1lZjAxNTA5MjEwYTIifQ.U4mUMxMiVAAdYBgzLAabV2ISzSmRdvOx-gvtatsqUo0' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Law why hand report ten machine price.","maxScore":90,"minScore":27,"description":"Age weight large along statement stock. Assume finish think before stop worry.\nCarry writer else security. Air dog real interesting.\nPerhaps morning type these. Somebody they result.","estimatedTime":"8 weeks","previewFileId":"827f6dc0-ba4a-42d4-a64c-004141b73032","createdByUserId":"7366cf80-2e99-4405-bbb3-ef01509210a2"}'

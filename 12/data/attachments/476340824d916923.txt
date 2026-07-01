@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjExOjU0LjI1OTcwNiIsInVzZXJfaWQiOiI3ODc3MzkxNi1iMzIxLTRjODAtYmUyZi0xMGYxODdmNDM0ZDYifQ.fh43zuFC5vegIuNWCCQ9tovlmTVsWHT4twmzvr_lraM' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Defense rest visit scientist computer.","maxScore":57,"minScore":1,"description":"Foreign whose its suddenly build bit job site. Red attorney finish that certain prove team.","estimatedTime":"7 weeks","previewFileId":"f622950c-f164-4b3f-8626-609c2a22d7ca","createdByUserId":"78773916-b321-4c80-be2f-10f187f434d6"}'

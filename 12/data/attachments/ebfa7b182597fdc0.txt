@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjExOjUxLjQ3NzU0OCIsInVzZXJfaWQiOiIyZDgzNjJmYS03NzRmLTRjMTktYjljYS01ODAwZjdkYzA2YzgifQ.l8hnqt1fL0L_RY2Gwxv4s7cq0_mciIFTG1vWSCQ22mc' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Compare around cold inside maintain vote note religious.","maxScore":78,"minScore":20,"description":"Week finally film might to relationship prove.\nBefore trip gas change speak seven various. Office want success accept machine able. Century beat these.","estimatedTime":"1 weeks","previewFileId":"d4f3dd26-7034-4b21-8f58-286672f97e37","createdByUserId":"2d8362fa-774f-4c19-b9ca-5800f7dc06c8"}'

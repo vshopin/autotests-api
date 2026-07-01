@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjExOjUxLjc4NDYwNiIsInVzZXJfaWQiOiI2ZGViYzlkZC1lNzQ1LTQ4ZWUtOTIwYi1mMzZjNTdjMjM4MzAifQ.np48GnELMvv1XtSju4g3NbeMGz_L4IhcbJmtMmF9n34' \
+  -H 'content-length: 283' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Home wife true more last.","courseId":"05cc999b-0f79-4d64-b31d-0198c31a9d4a","maxScore":69,"minScore":14,"orderIndex":76,"description":"None one compare. Respond know gas increase.\nStay product catch clear often at. Spring win between box stop.","estimatedTime":"8 weeks"}'
