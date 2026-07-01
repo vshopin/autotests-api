@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDA1OjMzOjE4LjE3MDgyMyIsInVzZXJfaWQiOiJjYjY3ZWQyYi0yN2Y2LTRlYmYtODU2Yy01M2M1MDMwNzNjZGQifQ.e3KR45c0mu8bMTglsOWfbwmOZDKJUf1yospkOh2HmU0' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Positive law here establish main serve attention.","maxScore":57,"minScore":11,"description":"Bring buy country trouble face story.\nRequire seem hundred fly. Bring arm however difference page himself official. Recently open financial per land church time.","estimatedTime":"7 weeks","previewFileId":"b921b4d2-5f26-483f-94ad-b6855f5bcf06","createdByUserId":"cb67ed2b-27f6-4ebf-856c-53c503073cdd"}'

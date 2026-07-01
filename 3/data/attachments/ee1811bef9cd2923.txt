@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDA1OjMzOjE2LjkyMjkxOSIsInVzZXJfaWQiOiI5MjA2MzgzOC1mN2MxLTQ4ZGYtOGJmYi00Y2YwZTc1ZTY2OTgifQ.Xqnlt9htE_0tjv9TxRfrBGy2sssu6s7dIN_jbV-b31I' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Big perhaps hour.","maxScore":89,"minScore":13,"description":"Turn beautiful myself situation movement since pattern bank. Buy ground argue bring affect position.\nOur sound hear share amount lawyer true discussion. Sure while wear again plant school.","estimatedTime":"7 weeks","previewFileId":"2693c450-ad57-495e-9805-2b74a680bc95","createdByUserId":"92063838-f7c1-48df-8bfb-4cf0e75e6698"}'

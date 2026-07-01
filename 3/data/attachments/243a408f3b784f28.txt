@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDA1OjMzOjE5LjE1MjU0MSIsInVzZXJfaWQiOiIyMzBjMzQzZC00M2NmLTQ5OTItYmYyOC1iY2NmMzI0MDdkN2MifQ.78cdMl8wybWfVGa_meWxe3_YLDrIE07k30C196DMmcg' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Opportunity within benefit century.","courseId":"4bbd10be-0057-4e55-ae5f-fe87e05135dc","maxScore":83,"minScore":6,"orderIndex":10,"description":"Free use arrive study. Democrat lead political suddenly.\nDebate hold letter market shoulder old. Would evidence possible either.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDA1OjMzOjE1LjYyNDA4OSIsInVzZXJfaWQiOiJhYTFhYzg2OS1hYTk3LTQzMjMtYTU2ZC02MmViM2Q2NmQxZjkifQ.UMe2MkuIwzyLW3opwhmyXxcJAjoH05M40jtb53Jc35g' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Establish exactly sea line.","maxScore":61,"minScore":29,"description":"Fill impact throughout rather. Eight new modern ago assume. Authority leave method.\nBusiness teacher sort race. Later board I staff practice account. Compare attack some article by.","estimatedTime":"5 weeks","previewFileId":"c0fde510-b623-43f5-8556-336fc4a02dcd","createdByUserId":"aa1ac869-aa97-4323-a56d-62eb3d66d1f9"}'

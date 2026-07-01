@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDA1OjMzOjE5LjQyNjQ2OSIsInVzZXJfaWQiOiJlMjhhMmNlOC0wZDE0LTQwNTMtYjBhYS03MGY5N2VhZTc5NDMifQ.Re3nCbMcsLGYVeN5DkXBRuCTe-vzEss-jC8okjLVS8E' \
+  -H 'content-length: 430' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Without fire care few trouble common.","maxScore":53,"minScore":15,"description":"Firm trial seem push. Mind personal stop our. Long population current.\nSkill ten control represent expert toward by. Management effect stock young paper by understand. Source base discussion glass.","estimatedTime":"3 weeks","previewFileId":"d59bd802-a46f-4564-b31e-f87ec27b7f09","createdByUserId":"e28a2ce8-0d14-4053-b0aa-70f97eae7943"}'

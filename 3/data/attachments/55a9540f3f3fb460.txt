@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/5e47a993-58e2-44d2-9c15-f5be4a1525e6' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDA1OjMzOjE0LjczNTEwNSIsInVzZXJfaWQiOiI3MWYxY2E4Ni1jYjQwLTQ1NzctYWM0Mi01ZGJmMjFkNWE3YzUifQ.oHJ1r-8ZBRJvEKTi98D12UpbPnihmgC81nFEIyxxp2o' \
+  -H 'content-length: 234' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Defense beat culture she.","maxScore":53,"minScore":30,"description":"There form democratic picture. Office door wish think movement.\nNearly agency style. Skin strong car. Owner time walk rather.","estimatedTime":"1 weeks"}'

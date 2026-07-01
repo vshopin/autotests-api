@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDA1OjMzOjE5LjQyNjQ2OSIsInVzZXJfaWQiOiJlMjhhMmNlOC0wZDE0LTQwNTMtYjBhYS03MGY5N2VhZTc5NDMifQ.Re3nCbMcsLGYVeN5DkXBRuCTe-vzEss-jC8okjLVS8E' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trip activity pass my none generation sign.","courseId":"c8cf9cc9-0460-4d8b-98b6-d98b17b4e5e6","maxScore":56,"minScore":26,"orderIndex":9,"description":"Feel hit type exist. Perhaps data check. His ago along seek especially easy guess.\nEnd tonight it administration late worker ok. Represent will where few fight.","estimatedTime":"6 weeks"}'

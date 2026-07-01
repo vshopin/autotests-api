@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDA1OjMzOjE0LjczNTEwNSIsInVzZXJfaWQiOiI3MWYxY2E4Ni1jYjQwLTQ1NzctYWM0Mi01ZGJmMjFkNWE3YzUifQ.oHJ1r-8ZBRJvEKTi98D12UpbPnihmgC81nFEIyxxp2o' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Defense business under remain.","maxScore":52,"minScore":20,"description":"Cause sport laugh often. Possible discuss within rock significant American executive almost.","estimatedTime":"7 weeks","previewFileId":"79581280-c32b-4e12-bbc0-56d7b76c5727","createdByUserId":"71f1ca86-cb40-4577-ac42-5dbf21d5a7c5"}'

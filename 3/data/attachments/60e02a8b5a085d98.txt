@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDA1OjMzOjE3Ljg5NzU4OSIsInVzZXJfaWQiOiI5ZjA5MjVjMS0wZjBmLTQ1OGYtYmExOC0zYjQ3ZjlkYmQ0YjgifQ.2xNr2uoBM5rezO6em4jkR4VvvGxP3lHdb4uvrbqTw7s' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Son leg enjoy thought low rock white.","maxScore":67,"minScore":2,"description":"Wife high third method brother. Arrive upon the stock.\nBag marriage few create save lead sound. But answer chance accept but market fish.","estimatedTime":"8 weeks","previewFileId":"609e3305-5c80-4379-9daa-57f24ec938f2","createdByUserId":"9f0925c1-0f0f-458f-ba18-3b47f9dbd4b8"}'
