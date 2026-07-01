@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDA1OjU1OjAyLjM0Nzg2NyIsInVzZXJfaWQiOiIzMTVmNDZjNy00OGU0LTRjOWUtYTQ2Ni1jYzYxNDRlMWIxMDQifQ.qbyztcTw2Eaw5r8PX_6YDy6zMD-xSB211XjOO5p9i0M' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Spring up about over.","maxScore":61,"minScore":7,"description":"Name simply instead course try. Benefit defense treatment why television city.\nStock over society wrong modern speak. Matter upon act some rate remain your very. Most eat why before.","estimatedTime":"2 weeks","previewFileId":"958753f3-df77-453f-8c0d-337ebdc1f562","createdByUserId":"315f46c7-48e4-4c9e-a466-cc6144e1b104"}'

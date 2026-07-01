@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDA1OjU1OjA0LjUzOTA2MiIsInVzZXJfaWQiOiIwNjQ5MTEwNi00ZGFmLTQ3YzMtYjRhMC02YTZmZTNlNjI5ZGMifQ.Je4uHP6g_knADHa5OFd6jhHPT9AvL4XRDCKzmhieXZQ' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Later together never.","courseId":"3b2b6087-d147-4a32-9831-7d40b0eb4bd0","maxScore":91,"minScore":19,"orderIndex":23,"description":"Data into season floor wish back film another.\nAppear fund newspaper party prepare outside. News main market against. Other finish fly security.","estimatedTime":"6 weeks"}'

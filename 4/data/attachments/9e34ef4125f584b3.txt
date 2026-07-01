@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDA1OjU1OjA1Ljc5MzM1MiIsInVzZXJfaWQiOiI1ZDg2MWViOC00YjFkLTQxYTItYTBmNS01ZjY5YzQ3NWQwZmYifQ.h02ej5e8qt_NRo22oCEacAG2IG1QyBbQNIcZQHyvutY' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Appear appear member room form contain.","maxScore":82,"minScore":28,"description":"Sing million figure low.\nNice arrive individual beat system. Available decision miss although. Military today hot television grow.","estimatedTime":"8 weeks","previewFileId":"fd86d1da-b1f3-405c-b8d5-f0593075fb53","createdByUserId":"5d861eb8-4b1d-41a2-a0f5-5f69c475d0ff"}'

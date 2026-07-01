@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/8af99b3d-fec0-42ea-b7df-3b2075073c3d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDA1OjU1OjAwLjg3Mjc5MSIsInVzZXJfaWQiOiJiZjNmY2E5OC05NzllLTQ0ZjEtOGJjYi01YjIwZjBmM2U1MTEifQ.-lsxq5A82BVvSRsiDAI0f8Hz6ndl35ja_DSfSqVgOV0' \
+  -H 'content-length: 286' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Safe speak Congress off.","maxScore":99,"minScore":13,"description":"Contain certainly officer image where become leg. Those out at available respond sing begin.\nCouple over film new few. Seek method generation box. Fund style political or notice.","estimatedTime":"7 weeks"}'

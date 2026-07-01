@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDA1OjU1OjA0LjgxMjMyOSIsInVzZXJfaWQiOiI4MGNjMWZlNS0zYmVmLTQwMmItYWNkYy1iNzE5MzY4YTRlMWMifQ.GdP4jqIOKX9Rez920NgogZPVESyH0Da5kTjA1FicKJc' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Role open ready skill someone interest evidence part.","maxScore":92,"minScore":8,"description":"Determine open change yeah hit rather heavy. Easy response single.\nTerm property dark maintain offer second. Box letter practice meeting. Population agency drive when out sound impact.","estimatedTime":"6 weeks","previewFileId":"3df27226-0705-45eb-a5eb-18fafd3d1842","createdByUserId":"80cc1fe5-3bef-402b-acdc-b719368a4e1c"}'

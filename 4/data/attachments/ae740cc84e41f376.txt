@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:29 Make GET request to http://localhost:8000/api/v1/exercises/9b305acf-233d-4937-91a8-295f18e7a24c
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises/9b305acf-233d-4937-91a8-295f18e7a24c
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:75 Check geet exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:51 Check exercise
+INFO     BASE_ASSERTIONS:base.py:30 Check that "id" equals to 9b305acf-233d-4937-91a8-295f18e7a24c
+INFO     BASE_ASSERTIONS:base.py:30 Check that "title" equals to Later together never.
+INFO     BASE_ASSERTIONS:base.py:30 Check that "course_id" equals to 3b2b6087-d147-4a32-9831-7d40b0eb4bd0
+INFO     BASE_ASSERTIONS:base.py:30 Check that "max_score" equals to 91
+INFO     BASE_ASSERTIONS:base.py:30 Check that "min_score" equals to 19
+INFO     BASE_ASSERTIONS:base.py:30 Check that "order_index" equals to 23
+INFO     BASE_ASSERTIONS:base.py:30 Check that "description" equals to Data into season floor wish back film another.
+Appear fund newspaper party prepare outside. News main market against. Other finish fly security.
+INFO     BASE_ASSERTIONS:base.py:30 Check that "estimated_time" equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDA1OjU1OjAwLjg3Mjc5MSIsInVzZXJfaWQiOiJiZjNmY2E5OC05NzllLTQ0ZjEtOGJjYi01YjIwZjBmM2U1MTEifQ.-lsxq5A82BVvSRsiDAI0f8Hz6ndl35ja_DSfSqVgOV0' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Forward management daughter chair of find race.","maxScore":82,"minScore":13,"description":"Sort recent head. Record address outside laugh.\nProfessor market section describe behind green. Buy experience serve particular.","estimatedTime":"7 weeks","previewFileId":"e03fdcea-7972-42e7-8934-558fbe36a788","createdByUserId":"bf3fca98-979e-44f1-8bcb-5b20f0f3e511"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDA1OjU1OjAzLjI5MjEyNiIsInVzZXJfaWQiOiI2Y2RlNzQxOC1iODc3LTRhMGUtOWE3NC0wZWVmYzM3Zjk5ZjIifQ.BLdOlpIPcvYvcoyNrK9q4hiJmY2g2Bj2gZwa4iDoitM' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sport agent consider learn.","maxScore":78,"minScore":19,"description":"Someone hand friend hotel half. Answer sit other each. Card necessary sport major least option family your.\nDeep across bring cut. Turn risk away idea. Maintain professional use what.","estimatedTime":"4 weeks","previewFileId":"54a10044-56fa-496d-9d3d-b62f21f231f0","createdByUserId":"6cde7418-b877-4a0e-9a74-0eefc37f99f2"}'
