@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjA1OjQzLjkyNDM1NyIsInVzZXJfaWQiOiJhMzg2NmNmNC0yNzNiLTQzY2QtYWU2Ni1jYjBjMmY3YTg0ZmUifQ.CRR8as5AaSL4R8i5_NAXL3HoZqhKDbB0b-3hYln9EUM' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Together travel just require.","maxScore":56,"minScore":7,"description":"How box company specific last. Realize note mean.\nTv where world our write way which. Population Republican onto receive.","estimatedTime":"9 weeks","previewFileId":"25a5b5ed-babc-481e-a7b0-f3bdd284d4b2","createdByUserId":"a3866cf4-273b-43cd-ae66-cb0c2f7a84fe"}'

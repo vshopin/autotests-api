@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjA1OjQyLjY4OTYyNyIsInVzZXJfaWQiOiJiNTNiNzg3ZS1lMWE4LTQ2M2QtODEwZC03MDcxNzIyNDY1MjgifQ.o6tkV2-ce6XcRRjLO0mk1hGXdo12BD7FxNDHZcDFyzE' \
+  -H 'content-length: 305' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Could ground seven face.","courseId":"eb394b93-7c73-4fac-bcba-c1c725cf1d7f","maxScore":82,"minScore":26,"orderIndex":69,"description":"Since group include father final career reason. First usually out yet third foreign manage. Job theory production here buy the they.","estimatedTime":"2 weeks"}'

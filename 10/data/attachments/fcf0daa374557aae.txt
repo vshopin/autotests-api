@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/da75bd6d-21ea-48c1-a73c-eeea0f0a6da6' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjA1OjQwLjU2MTE1MSIsInVzZXJfaWQiOiJiNjFiNDA4ZC1mNDk4LTQ4NWEtODQxYi1lOGE3MWViNjI0NDIifQ.QZrkmkH0JeImKc2PjSBCSOdlakDY1CVhl9i6jmdkHQk' \
+  -H 'content-length: 213' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Energy unit husband mean development join.","maxScore":78,"minScore":5,"description":"Threat assume live. Note prove produce usually. City writer available lawyer center left.","estimatedTime":"3 weeks"}'

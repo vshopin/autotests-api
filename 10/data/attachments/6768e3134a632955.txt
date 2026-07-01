@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjA1OjQwLjU2MTE1MSIsInVzZXJfaWQiOiJiNjFiNDA4ZC1mNDk4LTQ4NWEtODQxYi1lOGE3MWViNjI0NDIifQ.QZrkmkH0JeImKc2PjSBCSOdlakDY1CVhl9i6jmdkHQk' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nor check develop kitchen.","maxScore":95,"minScore":24,"description":"Be suggest ahead modern across. Response senior house.\nAsk bring performance seven. Trip true million.","estimatedTime":"1 weeks","previewFileId":"5bad093f-58ed-4f89-8f2c-31806fc64e70","createdByUserId":"b61b408d-f498-485a-841b-e8a71eb62442"}'

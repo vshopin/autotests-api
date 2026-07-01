@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjA1OjQyLjQxNTk1NiIsInVzZXJfaWQiOiIyM2MxYmFjMC1iOThmLTRlNzAtOWMzYy0xYTM2YjU5YjZlNzcifQ.zXPPWT4QgVPNVXSLkQHMwNJzroRxud0cM4Uq7hOwMfE' \
+  -H 'content-length: 430' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Doctor claim brother knowledge road leg.","maxScore":59,"minScore":17,"description":"Who term trade nothing difficult lay get. Across check know blood out together number.\nBeautiful service concern learn stay. Alone forget white detail and join. Small walk win threat fine radio.","estimatedTime":"5 weeks","previewFileId":"dae6a3ba-bd3b-4d6d-ad8b-d3f86bc1d0a4","createdByUserId":"23c1bac0-b98f-4e70-9c3c-1a36b59b6e77"}'

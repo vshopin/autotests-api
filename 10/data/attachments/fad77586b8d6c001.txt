@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjA1OjQzLjY1MDkyMyIsInVzZXJfaWQiOiJlYmU0OWE1Yy04NjMxLTRiMmMtODkyMy1iYzdhMmM3ZmU2NzkifQ.l47adMgZO0nx6QR_-ekNykbccg46nSlcW2NKooz4dMg' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Leader sport just mouth collection born.","maxScore":55,"minScore":19,"description":"Result question allow rule look very. Seat receive very company yourself difficult piece. Consumer able travel beyond yes own.","estimatedTime":"4 weeks","previewFileId":"22df5a53-8a10-42c3-ab40-794dddf0de22","createdByUserId":"ebe49a5c-8631-4b2c-8923-bc7a2c7fe679"}'

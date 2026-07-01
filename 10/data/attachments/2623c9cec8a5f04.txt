@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjA1OjQxLjQ2NjUzNyIsInVzZXJfaWQiOiJhMDdkNWNmMy1kNzRjLTRmMjktOGM5Yy05MTYxZTE0MTViYTYifQ.k6UC-XW1u8juM7K-Dqozvd2dLG4qvrOtrENcXglnHk0' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Partner put popular nature.","maxScore":99,"minScore":27,"description":"Everyone difficult democratic experience. Little raise exist exactly here base. Point man although buy final whole listen nature.","estimatedTime":"8 weeks","previewFileId":"3e2f1fe7-d932-4407-8336-19967ed5561a","createdByUserId":"a07d5cf3-d74c-4f29-8c9c-9161e1415ba6"}'

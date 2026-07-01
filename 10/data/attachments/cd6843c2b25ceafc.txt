@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjA1OjQyLjY4OTYyNyIsInVzZXJfaWQiOiJiNTNiNzg3ZS1lMWE4LTQ2M2QtODEwZC03MDcxNzIyNDY1MjgifQ.o6tkV2-ce6XcRRjLO0mk1hGXdo12BD7FxNDHZcDFyzE' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Film skill player industry.","maxScore":61,"minScore":6,"description":"Just figure purpose firm. Line letter school capital sign pass Republican. Assume including her choice security.","estimatedTime":"4 weeks","previewFileId":"27ceca0b-bde1-431d-9ea1-0e2a97ba2a1b","createdByUserId":"b53b787e-e1a8-463d-810d-707172246528"}'

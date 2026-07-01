@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE2OjA1OjQ1LjE4NTg5MiIsInVzZXJfaWQiOiIyNmQ1NmJkMC00MTI1LTRiNjMtOTY1Ni00ZmM5MWQ0YjJjZjkifQ.4Ju0e6jhesrTx08ZJIoWxuXVTkhyfoo_buniJKZ2Xo4' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Assume class up despite.","maxScore":99,"minScore":12,"description":"Gas piece rest audience. Music system view current.\nEven remember edge fact stock concern. Voice financial on what today indicate. Forward figure edge move idea animal guess.","estimatedTime":"6 weeks","previewFileId":"dee70794-748f-401a-947e-184d547afabf","createdByUserId":"26d56bd0-4125-4b63-9656-4fc91d4b2cf9"}'
