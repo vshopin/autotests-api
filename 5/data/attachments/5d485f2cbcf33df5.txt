@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE1OjA2OjI0Ljk4Mzc5MyIsInVzZXJfaWQiOiJhOWVlOGVmYi01NGEwLTQzNDAtYmM4Mi0xMzFmMjI1ZWMzZGIifQ.XQTD2ye4C6t4Fms79HVwGcHCSJyCPtK8iAfz4Di9Zdc' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lay eat fast address.","maxScore":98,"minScore":10,"description":"Friend enter magazine compare election area space. Author interest effect away.\nThe family could officer. Answer brother whatever list order heart hotel exist.","estimatedTime":"9 weeks","previewFileId":"751084c5-c366-4c2f-a9ed-f753fda8278a","createdByUserId":"a9ee8efb-54a0-4340-bc82-131f225ec3db"}'

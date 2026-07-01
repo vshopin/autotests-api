@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE1OjA2OjI3LjcwMTg4NCIsInVzZXJfaWQiOiJmM2QwMzI2My02MGM3LTRjMDktYTY5NC1lYTc0YTYyOWRmMjUifQ.ahWAPQaXwbsM6biBfLoXM6NV_t9n628vA7eljwxmZmw' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Them control number popular government area benefit.","maxScore":73,"minScore":4,"description":"Take side city agree lose ago against. Compare affect form region. Add safe whole west.","estimatedTime":"8 weeks","previewFileId":"c6df5f45-3f50-45f8-8112-4b8aaa9a9400","createdByUserId":"f3d03263-60c7-4c09-a694-ea74a629df25"}'

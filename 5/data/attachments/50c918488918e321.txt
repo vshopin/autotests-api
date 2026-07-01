@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE1OjA2OjI4LjY4MTEzMCIsInVzZXJfaWQiOiJhMGZjYmE5Mi1hYThmLTRkMzUtYjJhNy0wMTkwNTE4MzU3ZWQifQ.ek84arEkQoQVZXXJfPMNiG4uhoCMRj7wfQ_bBkq4_rY' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Some house probably less away.","maxScore":56,"minScore":24,"description":"Quickly music few young throw before help. Rise well total option bad natural sell. Produce head data deep physical society better chance.\nToday simply month specific our national receive commercial.","estimatedTime":"5 weeks","previewFileId":"160b497b-6ec1-43bb-bb84-c29915da7b2d","createdByUserId":"a0fcba92-aa8f-4d35-b2a7-0190518357ed"}'

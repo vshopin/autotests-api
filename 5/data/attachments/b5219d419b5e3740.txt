@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/08f2bd36-7c97-4ef2-b190-cb3347697fb5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE1OjA2OjI3LjcwMTg4NCIsInVzZXJfaWQiOiJmM2QwMzI2My02MGM3LTRjMDktYTY5NC1lYTc0YTYyOWRmMjUifQ.ahWAPQaXwbsM6biBfLoXM6NV_t9n628vA7eljwxmZmw' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Law attention hand agency finally if.","maxScore":91,"minScore":29,"orderIndex":74,"description":"Hundred effect while notice old play. By today within carry ok which. There than race grow. Seem me mind commercial.\nMeasure turn able meet along use center.\nDetermine its let one.","estimatedTime":"9 weeks"}'

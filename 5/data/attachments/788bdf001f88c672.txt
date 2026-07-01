@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE1OjA2OjI3LjQyNzM3MSIsInVzZXJfaWQiOiI1YWE2MDRkNi01ZGJiLTQ5YWYtOTA0ZC01MmU1YTM3NjJlNzEifQ.HM8bXvVuJFeHvq8mGnDb7bUaGmVP_D3A4IEf6zq_0BQ' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Right ball budget result focus.","maxScore":56,"minScore":17,"description":"Help miss determine exactly authority inside stage. Single everything loss build south season foreign.","estimatedTime":"9 weeks","previewFileId":"3bcaabd6-5715-4c5c-a927-1c4fb2a5565a","createdByUserId":"5aa604d6-5dbb-49af-904d-52e5a3762e71"}'

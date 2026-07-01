@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/0dbab9fd-8069-4082-a4d6-ea2c03cc5033' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE1OjA2OjI0Ljk4Mzc5MyIsInVzZXJfaWQiOiJhOWVlOGVmYi01NGEwLTQzNDAtYmM4Mi0xMzFmMjI1ZWMzZGIifQ.XQTD2ye4C6t4Fms79HVwGcHCSJyCPtK8iAfz4Di9Zdc' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Certainly control place people easy authority get.","maxScore":59,"minScore":16,"description":"Tough local commercial method.\nSea value bag dog idea yet. Share see together up. Attack data suffer around pass goal.\nProve gun early large modern. Their cut firm.","estimatedTime":"5 weeks"}'

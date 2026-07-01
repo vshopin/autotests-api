@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE1OjA2OjI1Ljg5NTY5MSIsInVzZXJfaWQiOiI1Y2MyMjc4My02NmIyLTQ4NTQtOWI3NS0zNzgzODBiM2E4NzIifQ.FYOJOHX22zB_KP0yN14LBFjEOpBFwuMKiUfMCUiOH_w' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Involve receive role miss huge.","maxScore":68,"minScore":12,"description":"Detail operation produce entire network chance.\nForm treatment large but girl fine my you. Here lose morning particularly sea particular. Thousand floor floor see far benefit more she.","estimatedTime":"4 weeks","previewFileId":"b34658b3-6bd1-46f4-a288-b04654c7f377","createdByUserId":"5cc22783-66b2-4854-9b75-378380b3a872"}'

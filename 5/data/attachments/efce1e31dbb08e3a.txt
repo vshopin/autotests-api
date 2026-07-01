@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE1OjA2OjI2LjQ3ODk1MSIsInVzZXJfaWQiOiI3NWI4Y2UwOS0wZDU2LTRmY2YtYjZjZC1lODcyNWJmY2ZlYWEifQ.3-39NQr-lBmTHxmnG_Qb3lhEtfPq8oN7ZaLuqrKGpRI' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Paper around perhaps peace analysis.","maxScore":91,"minScore":2,"description":"All cold reality while many. That carry style character. Everyone really find five charge.\nBegin hope ten production stage. Source try not government guess especially almost.","estimatedTime":"3 weeks","previewFileId":"7ec58663-eca6-44e1-8e31-5ae47ad40ea0","createdByUserId":"75b8ce09-0d56-4fcf-b6cd-e8725bfcfeaa"}'
