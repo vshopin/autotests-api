@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE1OjA5OjU1LjQyNDk1MyIsInVzZXJfaWQiOiIwNTQ3NWYzMC1iODhiLTQyMzctODY0OS01ODZmODQyNzk2NjIifQ.MvJcBjnsm3reP_c3d8WMrcCSaXwWupSaSQ9NedP4eaE' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Easy exist argue black car practice begin.","maxScore":79,"minScore":14,"description":"Accept view position season than. Visit get why town choice military.","estimatedTime":"10 weeks","previewFileId":"e78ca51f-f964-4e31-96b1-9393b7a69f4e","createdByUserId":"05475f30-b88b-4237-8649-586f84279662"}'

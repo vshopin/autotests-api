@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE1OjA5OjUzLjU0NjE0NCIsInVzZXJfaWQiOiIyYTQwMTMyNS0yYWU1LTQyMTktOGYwNS1jYmI4YWRiNzlkNWYifQ.rny_b5-MCrTtxx7NuOXCwc8b4YhYTj0C2F6EAuUXgHU' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Always system center fund.","maxScore":80,"minScore":9,"description":"Person fund issue. Share end rather do. Various game professional general expert usually.\nPhone similar home account. Final serve develop from find.","estimatedTime":"4 weeks","previewFileId":"42b0905d-c4a1-445e-9a5a-143aa88466a0","createdByUserId":"2a401325-2ae5-4219-8f05-cbb8adb79d5f"}'

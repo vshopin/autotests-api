@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE1OjA5OjU3Ljk1MDc0NyIsInVzZXJfaWQiOiJmODNhNDE3YS1iZGE3LTQwYzQtODI0OC05ODQ5Yzc2OTg2ZTEifQ.a233nEbtmu--I3KiqRGHfApKmokZnbOMToaK8AfDeKg' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Medical happen sea effect million finish Mr.","courseId":"594e611c-024c-4b14-a79a-c877c5d6ca1d","maxScore":95,"minScore":9,"orderIndex":95,"description":"Investment two treatment town whatever business within. Executive however control product.\nThreat our treatment give poor other whole. Look discussion poor.","estimatedTime":"1 weeks"}'

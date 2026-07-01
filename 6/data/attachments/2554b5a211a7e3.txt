@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE1OjA5OjU4LjIyNDM2NCIsInVzZXJfaWQiOiI4NWY3NGE1NS1iZDRlLTRiYTktOGUwYy1hZDYzMTI2YjhiMmMifQ.rsWggzg3RuOCL-SxdOgA7yrdY2ZrEdo6sJ3lAbVxT28' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Water production concern need wear.","maxScore":86,"minScore":14,"description":"Clear kind here order politics help child. Law paper beyond such. Value fire protect positive.","estimatedTime":"3 weeks","previewFileId":"3722dee1-7bb4-4e09-af81-189828f0f2d0","createdByUserId":"85f74a55-bd4e-4ba9-8e0c-ad63126b8b2c"}'

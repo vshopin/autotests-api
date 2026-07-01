@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE1OjA5OjU2LjY1OTk4NCIsInVzZXJfaWQiOiI0MmY2YjJmMi03NjA2LTQyYTEtOGI0Yy03M2M4MjUxZTZjZTIifQ.EDo8gA_Eb31FHd48MSK992RcNhGq_10XLLEaH2TboZ8' \
+  -H 'content-length: 296' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eye enter risk world to century nature.","courseId":"d5ab4dbc-9b75-412c-822a-2f5941784704","maxScore":96,"minScore":7,"orderIndex":79,"description":"Republican order occur choice situation deep. Appear office perhaps. Sea crime leader worry face step before.","estimatedTime":"7 weeks"}'

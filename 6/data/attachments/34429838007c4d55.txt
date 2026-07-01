@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/440bc126-ad27-4a29-825c-37f36bcf343a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE1OjA5OjUzLjU0NjE0NCIsInVzZXJfaWQiOiIyYTQwMTMyNS0yYWU1LTQyMTktOGYwNS1jYmI4YWRiNzlkNWYifQ.rny_b5-MCrTtxx7NuOXCwc8b4YhYTj0C2F6EAuUXgHU' \
+  -H 'content-length: 264' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Successful most professional rise speak require term.","maxScore":81,"minScore":23,"description":"Enjoy open admit summer. Two him level.\nPresent throughout dark street. Least adult information music manage. Tree couple home.","estimatedTime":"9 weeks"}'

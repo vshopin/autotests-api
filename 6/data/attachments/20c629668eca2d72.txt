@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE1OjA5OjU2LjkzODcxMyIsInVzZXJfaWQiOiJiMWMyZWU4Mi03ODZmLTQ1OWUtYmM1OS0wMjdiOWM4NTZhYjcifQ.YBYgv35wLmV7E2Mh5Rqv5UKQV9XBDZnSXL4yacNMVA4' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Himself person strategy yes support feel.","maxScore":80,"minScore":12,"description":"Have public resource yes only unit without. Level start choose economy evening way.\nChange front only learn. Foreign class clear.","estimatedTime":"4 weeks","previewFileId":"be3c595a-70d8-4927-ac9a-64d584968b5b","createdByUserId":"b1c2ee82-786f-459e-bc59-027b9c856ab7"}'

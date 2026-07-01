@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/c2146b60-6a0c-40bd-ba41-98b61dbcaf07' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE1OjA5OjU2LjY1OTk4NCIsInVzZXJfaWQiOiI0MmY2YjJmMi03NjA2LTQyYTEtOGI0Yy03M2M4MjUxZTZjZTIifQ.EDo8gA_Eb31FHd48MSK992RcNhGq_10XLLEaH2TboZ8' \
+  -H 'content-length: 290' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Power long point rich notice four.","maxScore":64,"minScore":20,"orderIndex":98,"description":"Article process of such. Military success wife director black charge goal. Never you offer vote music enjoy person how. Mean how song dream owner rule often.","estimatedTime":"6 weeks"}'

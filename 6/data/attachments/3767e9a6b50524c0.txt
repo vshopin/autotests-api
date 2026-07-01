@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE1OjA5OjU0LjQ3NTEyMCIsInVzZXJfaWQiOiIzYTU4MmE3Yi03NjdhLTRmYTAtYmI1NC1lYWI3ODdlYzE2MTAifQ.4-BwU88uknl1e9ZuL2xSTLw-bq6MEDpcHVZQk-ABJCQ' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Beyond hope success practice eight.","maxScore":96,"minScore":13,"description":"Part direction ask none key medical address station.\nTax step public over us. Level add company person could type. Interest our not past successful window system.","estimatedTime":"7 weeks","previewFileId":"764dc428-43cc-4273-b578-64f497b5b8d5","createdByUserId":"3a582a7b-767a-4fa0-bb54-eab787ec1610"}'

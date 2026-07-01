@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAxVDE1OjA5OjU2LjY1OTk4NCIsInVzZXJfaWQiOiI0MmY2YjJmMi03NjA2LTQyYTEtOGI0Yy03M2M4MjUxZTZjZTIifQ.EDo8gA_Eb31FHd48MSK992RcNhGq_10XLLEaH2TboZ8' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Like north its including.","maxScore":89,"minScore":10,"description":"Economy law soon yard debate inside nor only. Around vote believe pick class how find.\nProcess south across remain fill agent community. Seem I research its understand.","estimatedTime":"8 weeks","previewFileId":"3f3fd8a6-a534-4294-b7c0-1b67e3818cb8","createdByUserId":"42f6b2f2-7606-42a1-8b4c-73c8251e6ce2"}'
