@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDAzOjEyOjA1Ljk3MjA2MiIsInVzZXJfaWQiOiI5M2ZhYjQ2Ni0yZWM2LTRjOWItOTZlNC1mY2RmNjI2NzQ4ZTkifQ.8adh2uOGcnCC4qzuxdWWB_M59ZOxTbxiUo8HjE_PEqQ' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sport else short save sure cell.","maxScore":74,"minScore":21,"description":"Skin yes at increase man increase lay fill. Alone reveal sense could political expert appear energy. Letter whose religious accept make.\nSince price with company whatever only tree gas.","estimatedTime":"3 weeks","previewFileId":"5b642e56-ea4b-4b7a-871b-a1cc05a60638","createdByUserId":"93fab466-2ec6-4c9b-96e4-fcdf626748e9"}'

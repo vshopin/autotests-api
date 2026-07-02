@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDAzOjEyOjA2LjU2OTk1MyIsInVzZXJfaWQiOiJjMTM5ODJhYi1iN2IxLTQwOGUtYjc3OS1lNDNmNWRhMDA2NDEifQ.N_Yr6qwVaIQ1Xk1aNJa6f_vzTdla3OSoWyk9abeGq_o' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Character prevent technology discuss.","maxScore":71,"minScore":3,"description":"Need decision president issue year pretty order remain. Heavy more whole clearly into. Bag with modern camera add off court.","estimatedTime":"8 weeks","previewFileId":"25200d43-a1ec-4130-9fb6-0cce4e7fc32c","createdByUserId":"c13982ab-b7b1-408e-b779-e43f5da00641"}'

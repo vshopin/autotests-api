@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDAzOjEyOjEwLjA2MTk1OCIsInVzZXJfaWQiOiIxZjQxOTU4OS00MzRmLTRlMTYtOGM2Ni1hMDkxYzBiYzFmMmMifQ.0q-CGBvtmKvYtR3F3GSZVrqjnsKXgvTNeRdvxwg1PS4' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cold past ten society experience business market decision.","maxScore":88,"minScore":15,"description":"Score movie sound size. Charge by attorney we. Card break develop character.\nWest ok far.","estimatedTime":"10 weeks","previewFileId":"d314b9a7-f9d7-4e95-a511-c95a83558064","createdByUserId":"1f419589-434f-4e16-8c66-a091c0bc1f2c"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/4a952196-195c-461c-9bf7-4332c7bc4cad' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDAzOjEyOjA1Ljk3MjA2MiIsInVzZXJfaWQiOiI5M2ZhYjQ2Ni0yZWM2LTRjOWItOTZlNC1mY2RmNjI2NzQ4ZTkifQ.8adh2uOGcnCC4qzuxdWWB_M59ZOxTbxiUo8HjE_PEqQ' \
+  -H 'content-length: 303' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Miss resource tree off place him low.","maxScore":84,"minScore":27,"description":"Whole order tree fine although. Performance enjoy development soldier when interview drive. Head since very because.\nPlayer scene point herself boy scene. Power store another family.","estimatedTime":"7 weeks"}'

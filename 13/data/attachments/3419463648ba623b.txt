@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDAzOjEyOjEwLjMzNTQ2NSIsInVzZXJfaWQiOiI3N2IzMDg2OC1mNTYyLTQ4M2UtYTUzYS02YzYxODU4OTdjNDIifQ.W_24aTyjbbNWlfqqifXmBWMCW82Jv9l0mtXbxUZNxE8' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Six myself three.","maxScore":67,"minScore":28,"description":"Certainly certainly actually per. Region building bar few she.\nHand recent poor relate eat board sea later. Real stock structure dark a important year benefit. Institution science occur night out.","estimatedTime":"5 weeks","previewFileId":"baaceef2-2af6-4a8b-9157-9ba4ec00c85d","createdByUserId":"77b30868-f562-483e-a53a-6c6185897c42"}'
